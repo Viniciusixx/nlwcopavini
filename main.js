@@ -31,7 +31,6 @@ document.querySelector('#app').innerHTML = `
 <main id="cards">
 ${createCard('24/11', 'QUINTA', createGame('switzerland', 'cameroon', '07:00')+createGame('portugal', 'ghana', '13:00')+createGame('brazil', 'servia', '16:00'))}
 ${createCard('28/11', 'segunda', createGame('coreiasul', 'ghana', '10:00')+createGame( 'brazil', 'switzerland', '13:00') +createGame('portugal', 'uruguai', '16:00'))}
-${createCard('28/11', 'segunda', createGame('coreiasul', 'ghana', '10:00')+createGame( 'brazil', 'switzerland', '13:00') +createGame('portugal', 'uruguai', '16:00'))}
-${createCard('28/11', 'segunda', createGame('coreiasul', 'ghana', '10:00')+createGame( 'brazil', 'switzerland', '13:00') +createGame('portugal', 'uruguai', '16:00'))}
+
 </main>
 `
